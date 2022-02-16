@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  padding: 2.5em 3em;
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+  & :hover {
+    color: #00f777;
+  }
+  box-shadow: rgba(0, 0, 0, 0.39) 0px 1px 10px;
+}
+.header-list {
+  display: flex;
+  color: white;
+  list-style-type: none;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
